@@ -31,6 +31,7 @@ DOMAIN-SUFFIX,emby.wtf,DIRECT
 
 
 # 猫熊影业
+DOMAIN-SUFFIX,embyclub.nl,DIRECT
 DOMAIN-SUFFIX,embyclub.net,DIRECT
 DOMAIN-SUFFIX,embyclub.com,DIRECT
 DOMAIN-SUFFIX,embyclub.org,DIRECT
@@ -43,4 +44,5 @@ DOMAIN-KEYWORD,pornemby,DIRECT
 DOMAIN-SUFFIX,xn--2vxr8a.club,DIRECT
 DOMAIN-SUFFIX,porn.embyclub.com,DIRECT
 IP-CIDR,142.54.186.202/16,DIRECT,no-resolve
+IP-CIDR,20.189.99.35,DIRECT,no-resolve
 
