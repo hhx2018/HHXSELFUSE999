@@ -1,13 +1,45 @@
 # Upadate> 2022-2-9
-DOMAIN-SUFFIX,embyclub.net,🎬 猫熊Emby
-DOMAIN-SUFFIX,embyclub.com,🎬 猫熊Emby
-DOMAIN-SUFFIX,embyclub.org,🎬 猫熊Emby
-DOMAIN-SUFFIX,embyclub.media,🎬 猫熊Emby
-DOMAIN-SUFFIX,猫熊.club,🎬 猫熊Emby
-DOMAIN-SUFFIX,maoxiong.cloud,🎬 猫熊Emby
-DOMAIN-SUFFIX,haodream.org,🎬 猫熊Emby
-DOMAIN-KEYWORD,emby,🎬 猫熊Emby
-DOMAIN-KEYWORD,pornemby,🎬 猫熊Emby
-DOMAIN-SUFFIX,xn--2vxr8a.club,🎬 猫熊Emby
-DOMAIN-SUFFIX,porn.embyclub.com,🎬 猫熊Emby
-IP-CIDR,142.54.186.202/16,🎬 猫熊Emby,no-resolve
+
+# 自定义网站分流
+
+#泥巴影院
+DOMAIN-SUFFIX,nbyy.tv,HHX
+DOMAIN-SUFFIX,static.hotjar.com,HHX
+DOMAIN-KEYWORD,mudvod,HHX
+DOMAIN-SUFFIX,newpppp.com,HHX
+DOMAIN-SUFFIX,biggggg.com,HHX
+
+
+# ------------ E m b y --------------
+
+# CharonTV影业   
+DOMAIN-SUFFIX,play.charontv.com,HHX
+
+# 卷毛鼠影视
+DOMAIN,usa3.jmsooo.com,HHX
+DOMAIN-SUFFIX,jmsooo.com,DIRECT
+
+
+# 普拉斯影业
+DOMAIN-SUFFIX,emby.plusmedia.site,DIRECT
+
+# 终点站影业
+DOMAIN-SUFFIX,tv.emby.media,DIRECT
+DOMAIN-SUFFIX,emby.wtf,DIRECT  
+
+
+
+# 猫熊影业
+DOMAIN-SUFFIX,embyclub.net,DIRECT
+DOMAIN-SUFFIX,embyclub.com,DIRECT
+DOMAIN-SUFFIX,embyclub.org,DIRECT
+DOMAIN-SUFFIX,embyclub.media,DIRECT
+DOMAIN-SUFFIX,猫熊.club,DIRECT
+DOMAIN-SUFFIX,maoxiong.cloud,DIRECT
+DOMAIN-SUFFIX,haodream.org,DIRECT
+DOMAIN-KEYWORD,emby,DIRECT
+DOMAIN-KEYWORD,pornemby,DIRECT
+DOMAIN-SUFFIX,xn--2vxr8a.club,DIRECT
+DOMAIN-SUFFIX,porn.embyclub.com,DIRECT
+IP-CIDR,142.54.186.202/16,DIRECT,no-resolve
+
