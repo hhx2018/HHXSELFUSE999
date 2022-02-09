@@ -1,8 +1,9 @@
 # Upadate> 2022-2-9
 
 # 自定义网站分流
-
-#泥巴影院
+DOMAIN,yaofan.cc,HHX
+DOMAIN-SUFFIX,prprcloud.moe,HHX
+# 泥巴影院
 DOMAIN-SUFFIX,nbyy.tv,HHX
 DOMAIN-SUFFIX,static.hotjar.com,HHX
 DOMAIN-KEYWORD,mudvod,HHX
