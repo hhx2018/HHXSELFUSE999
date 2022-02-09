@@ -1,0 +1,84 @@
+# ---------- 参阅的广告屏蔽 ------------
+# Update 2022-2-9
+
+# 知乎去广告，以下规则请放置在filter_local最顶部
+IP-CIDR,118.89.204.198/32,REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+HOST,118.89.204.198,REJECT
+
+#腾讯视频广告
+host-suffix, tetrack.qq.com
+host-suffix, tpns.tencent.com
+host-suffix, api.poll.video.qq.com
+host-suffix, static-res.qq.com
+host-suffix, stat.tpns.tencent.com
+host, h.trace.qq.com
+host, h.trace.qq.com
+
+#爱奇艺广告
+
+host, cr-status.iqiyi.com
+host-suffix, cupid.iqiyi.com
+host, f74f7f7765f8a2f6.ngaa.net.cn
+host, ef-dongfeng.tanx.com
+host, iqiyim.adtrack.enlightent.cn
+
+HOST,dig.bdurl.net
+HOST,ads3-normal-lq.zijieapi.com
+HOST,ads5-normal-lq.zijieapi.com
+#HOST,ad.data.lianjia.com
+#HOST,i.snssdk.com
+#HOST,imp-toutiao-data.37.com.cn
+#HOST,reading-hl.snssdk.com
+#HOST,i-hl.snssdk.com
+#HOST,mon-lq.snssdk.com
+
+# 知乎去广告，以下规则的位置越前方越好
+HOST,appcloud2.in.zhihu.com,REJECT
+HOST,mqtt.zhihu.com,reject
+HOST,sugar.zhihu.com,reject
+USER-AGENT,AVOS*,REJECT
+
+# qq空间广告屏蔽
+HOST,d3g.qq.com
+HOST,bsrv.qq.com
+HOST,sq.bls.mdt.qq.com
+# HOST,btrace.qq.com
+HOST,adsmind.gdtimg.com
+HOST,xj-landing.gdtimg.com
+
+# 网易云登陆验证
+HOST,o2o-ad-dev.oss-cn-shanghai.aliyuncs.com, reject
+
+# 百度输入法
+HOST-KEYWORD,jomodns,reject
+HOST,res.mi.baidu.com,reject
+HOST,r6.mo.baidu.com,reject
+
+# QQ音乐去广告
+HOST,adstats.tencentmusic.com
+HOST,ad.tencentmusic.com,reject
+HOST,adcdn.tencentmusic.com,reject
+HOST,adexpo.tencentmusic.com,reject
+HOST,adclick.tencentmusic.com,reject
+HOST,us.l.qq.com,reject
+
+# tieba
+HOST,aod-image.baidu.com,reject
+HOST,js-ad.a.yximgs.com,reject
+HOST,mobads-pre-config.cdn.bcebos.com,reject
+HOST,nadvideo2.baidu.com,reject
+
+# YouTube 去底部广告
+HOST-SUFFIX, ehg-youtube.hitbox.com, reject
+
+# 高德地图
+HOST,optimus-ads.amap.com,reject
+
+# backiee广告屏蔽
+HOST-SUFFIX,stats.g.doubleclick.net,reject
+HOST-SUFFIX,pagead2.googlesyndication.com,reject
+HOST-SUFFIX,googleads.g.doubleclick.net,reject
+HOST-SUFFIX,app-measurement.com,reject
+HOST-SUFFIX,ade.googlesyndication.com,reject
+HOST-SUFFIX,googleads4.g.doubleclick.net,reject
