@@ -3,8 +3,8 @@
 # 自定义网站分流
 DOMAIN,yaofan.cc,HHX
 DOMAIN-SUFFIX,prprcloud.moe,HHX
-HOST,freemycloud.site,HHX
-HOST,sd-yun.xyz,HHX
+DOMAIN-KEYWORD,freemycloud,HHX
+DOMAIN-SUFFIX,sd-yun.xyz,HHX
 
 # 泥巴影院
 DOMAIN-SUFFIX,nbyy.tv,HHX
