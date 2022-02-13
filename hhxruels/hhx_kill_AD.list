@@ -5,6 +5,11 @@
 IP-CIDR,118.89.204.198/32,REJECT
 IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
 HOST,118.89.204.198,REJECT
+HOST,appcloud2.in.zhihu.com,REJECT
+HOST,mqtt.zhihu.com,reject
+# 2022-2-13,已经证实：sugar.zhihu.com被禁用会导致知乎异常
+HOST,sugar.zhihu.com,direct
+USER-AGENT,AVOS*,REJECT
 
 #腾讯视频广告
 host-suffix, tetrack.qq.com
@@ -32,12 +37,6 @@ HOST,ads5-normal-lq.zijieapi.com
 #HOST,reading-hl.snssdk.com
 #HOST,i-hl.snssdk.com
 #HOST,mon-lq.snssdk.com
-
-# 知乎去广告，以下规则的位置越前方越好
-HOST,appcloud2.in.zhihu.com,REJECT
-HOST,mqtt.zhihu.com,reject
-HOST,sugar.zhihu.com,reject
-USER-AGENT,AVOS*,REJECT
 
 # qq空间广告屏蔽
 HOST,d3g.qq.com
