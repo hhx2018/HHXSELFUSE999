@@ -8,7 +8,7 @@ HOST,118.89.204.198,REJECT
 HOST,appcloud2.in.zhihu.com,REJECT
 HOST,mqtt.zhihu.com,reject
 # 2022-2-13,已经证实：sugar.zhihu.com被禁用会导致知乎异常
-HOST,sugar.zhihu.com,direct
+# HOST,sugar.zhihu.com,direct
 USER-AGENT,AVOS*,REJECT
 
 #腾讯视频广告
