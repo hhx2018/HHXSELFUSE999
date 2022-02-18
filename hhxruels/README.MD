@@ -6,3 +6,6 @@
 >  HOST > HOST-SUFFIX > HOST-KEYWORD
 
 2. 看分流条目位置，靠上的优先
+
+
+# 网易云签到原地址 https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js
