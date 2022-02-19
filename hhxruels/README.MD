@@ -12,8 +12,8 @@
  https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js
  
 ## 大佬們的分流項目地址
-1⃣️ 神机规则: https://github.com/DivineEngine/Profiles/tree/master
-2⃣️ lhie1洞主的规则: https://github.com/lhie1/Rules/tree/master
-3⃣️ GeQ1an的规则: https://github.com/GeQ1an/Rules/tree/master
-4⃣️ blackmatrix7的规则: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule
-5⃣️ NobyDa的规则: https://github.com/NobyDa/ND-AD
+- 神机规则: https://github.com/DivineEngine/Profiles/tree/master
+- lhie1洞主的规则: https://github.com/lhie1/Rules/tree/master
+- GeQ1an的规则: https://github.com/GeQ1an/Rules/tree/master
+- blackmatrix7的规则: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule
+- NobyDa的规则: https://github.com/NobyDa/ND-AD
