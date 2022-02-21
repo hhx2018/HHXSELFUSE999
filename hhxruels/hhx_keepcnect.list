@@ -3,6 +3,7 @@
 # 自定义网站分流
 DOMAIN,yaofan.cc,HHX
 DOMAIN-SUFFIX,prprcloud.moe,HHX
+HOST,prpr.xprpr.io,HHX
 DOMAIN-KEYWORD,freemycloud,HHX
 DOMAIN-SUFFIX,sd-yun.xyz,HHX
 
