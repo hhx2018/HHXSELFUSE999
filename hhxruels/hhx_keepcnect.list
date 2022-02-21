@@ -6,6 +6,12 @@ DOMAIN-SUFFIX,prprcloud.moe,HHX
 DOMAIN-KEYWORD,freemycloud,HHX
 DOMAIN-SUFFIX,sd-yun.xyz,HHX
 
+# Z-library，走代理的话会导致ip下载额度总是满额度，经测试直连就可以访问
+HOST-SUFFIX,z-lib.org,direct
+HOST-KEYWORD,singlelogin,direct
+host-suffix,bookzz.ren,direct
+host-suffix,book4you.org,direct
+
 # 泥巴影院
 DOMAIN-SUFFIX,nbyy.tv,HHX
 DOMAIN-SUFFIX,static.hotjar.com,HHX
