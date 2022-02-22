@@ -15,31 +15,32 @@ DOMAIN-SUFFIX,sd-yun.xyz,HHX
 # 经测试，如果登录账号就可以正常使用10次限额，也够用了，所以不在此画蛇添足
 
 # 泥巴影院
-DOMAIN-SUFFIX,nbyy.tv,HHX
-DOMAIN-SUFFIX,static.hotjar.com,HHX
-DOMAIN-KEYWORD,mudvod,HHX
-DOMAIN-SUFFIX,newpppp.com,HHX
-DOMAIN-SUFFIX,biggggg.com,HHX
+DOMAIN-SUFFIX,nbyy.tv,Free
+DOMAIN-SUFFIX,static.hotjar.com,Free
+DOMAIN-KEYWORD,mudvod,Free
+DOMAIN-SUFFIX,newpppp.com,Free
+DOMAIN-SUFFIX,biggggg.com,Free
 
 
 # ------------ E m b y --------------
 
 # CharonTV影业   
-DOMAIN-SUFFIX,play.charontv.com,HHX
-
-# 卷毛鼠影视
-DOMAIN,usa3.jmsooo.com,HHX
-DOMAIN-SUFFIX,jmsooo.com,DIRECT
-
+DOMAIN-SUFFIX,play.charontv.com,Free
 
 # 普拉斯影业
-DOMAIN-SUFFIX,emby.plusmedia.site,DIRECT
+HOST-SUFFIX,plusmedia.site,Free
+HOST,emby.xeton.dev,Free
+HOST,jellyfin.xeton.dev,Free
+HOST,movie.xeton.dev,Free
+HOST,servers.xeton.dev,Free
+
+# 卷毛鼠影视
+HOST,usa3.jmsooo.com,Free
+HOST-SUFFIX,jmsooo.com,DIRECT
 
 # 终点站影业
 DOMAIN-SUFFIX,tv.emby.media,DIRECT
 DOMAIN-SUFFIX,emby.wtf,DIRECT  
-
-
 
 # 猫熊影业
 DOMAIN-SUFFIX,embyclub.nl,DIRECT
