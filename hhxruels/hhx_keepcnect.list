@@ -34,6 +34,7 @@ HOST,sugar.zhihu.com,direct
 
 # 必应中国
 HOST,cn.bing.com,direct
+HOST-SUFFIX,bing.com,direct
 
 # Speedtest测速
 HOST,www.speedtest.net,Shawn
