@@ -1,4 +1,4 @@
-# Upadate> 2022-2-10
+# update > 2022-2-23
 
 # 机场分流
 DOMAIN,yaofan.cc,HHX
@@ -7,6 +7,9 @@ HOST,prpr.xprpr.io,HHX
 HOST-SUFFIX,freemycloud.site,HHX
 DOMAIN-KEYWORD,freemycloud,HHX
 DOMAIN-SUFFIX,sd-yun.xyz,HHX
+
+# 苹果服务
+# host,itunes.apple.com,direct
 
 
 # QuantumultX 收据验证
@@ -23,21 +26,59 @@ HOST,receiptcheck.quantumult.app,direct
 DOMAIN-SUFFIX,nbyy.tv,Free
 DOMAIN-SUFFIX,static.hotjar.com,Free
 DOMAIN-KEYWORD,mudvod,Free
+# newpppp 是媒体流来源
 DOMAIN-SUFFIX,newpppp.com,Free
 DOMAIN-SUFFIX,biggggg.com,Free
+host-suffix,plausible.io,Free
 
 # 奈飞影视，只能直连观看
 HOST-SUFFIX,nfmovies.com,direct
 
-# 天空影视 https://www.tkys.tv
+# 天空影视 https://www.tkys.tv  @tkys
 HOST-SUFFIX,tkys.tv,direct
 HOST-SUFFIX,kuaibozy.net,direct
+# 多个网站使用 img.52swat.cn来做图床
 HOST-SUFFIX,52swat.cn,direct
 
-# AGE动漫
+# AGE动漫 agefans.app
 HOST-SUFFIX,agefans.app,direct
 HOST-SUFFIX,digicert.com,direct
 HOST-SUFFIX,sectigo.com,direct
+
+# 欢乐聚会# 好猫影视 haomao.app
+HOST-SUFFIX,haomao.app,direct
+host-suffix,ylzy1.com,direct
+
+# 菜鸟制作工具# 迪迪影视 www.dd88.app
+host-suffix,dd88.app,direct
+host-suffix,dd88.icu,direct
+host-suffix,pic.wujinimg.com,direct
+
+# 大师兄记烟 #大师兄影视 dsxys.com/app @中华人民共和国万岁
+host-suffix,dsxys.com,direct
+host,sdk.alibaba.com.ailbaba.me,direct
+host,cdn.jsdelivr.net,direct
+# 某些站点偶尔会调用两次这个站点，也许是做某些验证？
+host,statuse.digitalcertvalidation.com,direct
+
+# 养花录 #盼盼影视 panpan.la 扣扣群705941508 E-mail：panpanys@outlook.com
+host,img.huishij.com,direct
+host,jk.8c5778.com,direct
+host,img.lywyx.com,direct
+host-suffix,alsmzw.cn,direct
+
+# le的根证书终于换了，丝麻的根证书终于换了，不会被苹果墙了 root根证书服务器换到了http://r3.o.lencr.org
+# host-suffix,lencr.org,direct
+# 未复现下列
+# host,apps.identrust.com,direct
+
+# 小小影视 xiao1.app
+host,xiao1.app,direct
+host-suffix,hnhx360.com,direct
+# 下面为推流地址
+host-suffix,ukubf2.com,direct
+
+
 
 # 知乎去广告修正
 HOST,sugar.zhihu.com,direct
