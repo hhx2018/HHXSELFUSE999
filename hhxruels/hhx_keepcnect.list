@@ -1,11 +1,16 @@
 # Upadate> 2022-2-10
 
-# 自定义网站分流
+# 机场分流
 DOMAIN,yaofan.cc,HHX
 DOMAIN-SUFFIX,prprcloud.moe,HHX
 HOST,prpr.xprpr.io,HHX
+HOST-SUFFIX,freemycloud.site,HHX
 DOMAIN-KEYWORD,freemycloud,HHX
 DOMAIN-SUFFIX,sd-yun.xyz,HHX
+
+
+# QuantumultX 收据验证
+HSOT,receiptcheck.quantumult.app,dirict
 
 # Z-library，走代理的话会导致ip下载额度总是满额度，经测试直连就可以访问
 # HOST-SUFFIX,z-lib.org,direct
@@ -20,6 +25,12 @@ DOMAIN-SUFFIX,static.hotjar.com,Free
 DOMAIN-KEYWORD,mudvod,Free
 DOMAIN-SUFFIX,newpppp.com,Free
 DOMAIN-SUFFIX,biggggg.com,Free
+
+# 奈飞影视，只能直连观看
+HOST-SUFFIX,nfmovies.com,direct
+
+# 知乎去广告修正
+HOST,sugar.zhihu.com,direct
 
 # 必应中国
 HOST,cn.bing.com,direct
