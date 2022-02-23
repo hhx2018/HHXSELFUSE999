@@ -32,7 +32,7 @@ HOST-SUFFIX,nfmovies.com,direct
 # 天空影视 https://www.tkys.tv
 HOST-SUFFIX,tkys.tv,direct
 HOST-SUFFIX,kuaibozy.net,direct
-HOST-SUFFIX,*.cn,direct
+HOST-SUFFIX,52swat.cn,direct
 
 # 知乎去广告修正
 HOST,sugar.zhihu.com,direct
