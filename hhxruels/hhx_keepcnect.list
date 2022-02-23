@@ -34,6 +34,11 @@ HOST-SUFFIX,tkys.tv,direct
 HOST-SUFFIX,kuaibozy.net,direct
 HOST-SUFFIX,52swat.cn,direct
 
+# AGE动漫
+HOST-SUFFIX,agefans.app,direct
+HOST-SUFFIX,digicert.com,direct
+HOST-SUFFIX,sectigo.com,direct
+
 # 知乎去广告修正
 HOST,sugar.zhihu.com,direct
 
