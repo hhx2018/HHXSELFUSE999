@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,sd-yun.xyz,HHX
 
 # 苹果服务
 # host,itunes.apple.com,direct
+host-suffix,apple.cn,direct
 
 
 # QuantumultX 收据验证
