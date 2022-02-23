@@ -21,6 +21,12 @@ DOMAIN-KEYWORD,mudvod,Free
 DOMAIN-SUFFIX,newpppp.com,Free
 DOMAIN-SUFFIX,biggggg.com,Free
 
+# 必应中国
+HOST,cn.bing.com,direct
+
+# Speedtest测速
+HOST,www.speedtest.net,Shawn
+
 
 # ------------ E m b y --------------
 
