@@ -62,6 +62,9 @@ host,cdn.jsdelivr.net,direct
 # 不知道是干啥的 总是DNS FAIL host,img.lywyx.comupload,direct
 host,xk.3v7.net,direct
 host-suffix,bdzybf3.com,direct
+host-suffix,bdzyimg.com,direct
+# 某些视频要走这个推流
+host,new.ha1916.com,Free
 # 某些站点偶尔会调用两次这个站点，也许是做某些验证？
 host,statuse.digitalcertvalidation.com,direct
 
