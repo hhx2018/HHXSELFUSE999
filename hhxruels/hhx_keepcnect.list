@@ -1,5 +1,8 @@
 # update > 2022-2-23
 
+# pinimg软件需要？
+domain-suffix,pinimg.com,HHX
+
 # 机场分流
 DOMAIN,yaofan.cc,HHX
 DOMAIN-SUFFIX,prprcloud.moe,HHX
