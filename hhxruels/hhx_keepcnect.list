@@ -3,6 +3,9 @@
 # pinimg软件需要？
 domain-suffix,pinimg.com,HHX
 
+domain-keyword,bljiex,direct
+domain-suffix,bljiex.cc,direct
+
 # 机场分流
 DOMAIN,yaofan.cc,HHX
 DOMAIN-SUFFIX,prprcloud.moe,HHX
