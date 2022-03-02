@@ -1,4 +1,4 @@
-# update > 2022-2-23
+# update > 2022-3-2
 
 # pinimg软件需要？
 domain-suffix,pinimg.com,HHX
@@ -29,6 +29,20 @@ HOST,receiptcheck.quantumult.app,direct
 # host-suffix,bookzz.ren,direct
 # host-suffix,book4you.org,direct
 # 经测试，如果登录账号就可以正常使用10次限额，也够用了，所以不在此画蛇添足
+
+# #HDOBOX  #套壳上架 苹果商店：https://apps.apple.com/app/id1611512811
+# 官网地址：https://hdo.app/
+domain,api.trakt.tv,Free
+domain,api.themoviedb.org,Free
+domain-suffix,m4ufree.tv,Free
+# load image
+domain-suffix,yandex.net,Free
+domain,image.tmdb.org,Free
+# load video,分别为 720P ,1080P,主要是dudeimage推流
+domain-suffix,fastmedia.monster,Free
+domain-suffix,dudeimage.net,Free
+domain-suffix,betterstream.co,Free
+domain-suffix,shopifycloud.com,Free
 
 # 泥巴影院
 DOMAIN-SUFFIX,nbyy.tv,Free
