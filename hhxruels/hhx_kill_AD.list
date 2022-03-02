@@ -1,5 +1,12 @@
 # ---------- 参阅的广告屏蔽 ------------
-# Update 2022-2-9
+# Update 2022-3-2
+
+# #HDOBOX  #套壳上架 苹果商店：https://apps.apple.com/app/id1611512811
+# 官网地址：https://hdo.app/
+# 屏蔽广告
+host-suffix, applovin.com, reject
+host-suffix, applvn.com, reject
+
 
 # 知乎去广告，以下规则请放置在filter_local最顶部
 IP-CIDR,118.89.204.198/32,REJECT
