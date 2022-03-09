@@ -1,4 +1,8 @@
-# update > 2022-3-2
+# update > 2022-3-9
+
+# 莫名其妙的问题
+domain,www.baidu.com,direct
+
 
 # pinimg软件需要？
 domain-suffix,pinimg.com,HHX
