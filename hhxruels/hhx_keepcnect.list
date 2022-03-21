@@ -1,8 +1,10 @@
-# update > 2022-3-9
+# update > 2022-3-21
+
+# Also QuantumultX 规则使用的是 host定义，然而，得益于解析器的存在，使用clash中的 domain也可正常使用，故在此处使用 domain来增加多平台可用性(虽然并没有移植)
 
 # 莫名其妙的问题
 domain,www.baidu.com,direct
-
+domain,www.hebeea.edu.cn,direct
 
 # pinimg软件需要？
 domain-suffix,pinimg.com,HHX
