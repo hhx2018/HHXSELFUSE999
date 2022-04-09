@@ -1,6 +1,14 @@
-# update > 2022-3-21
+# update > 2022-4-9
 
 # Also QuantumultX 规则使用的是 host定义，然而，得益于解析器的存在，使用clash中的 domain也可正常使用，故在此处使用 domain来增加多平台可用性(虽然并没有移植)
+
+# 银行
+HOST-SUFFIX,95599.cn,direct
+HOST-SUFFIX,abchina.com,direct
+HOST-SUFFIX,bscabank.com,direct
+HOST-SUFFIX,openaboc.cn,direct
+HOST-SUFFIX,openaboc.com,direct
+HOST-SUFFIX,openaboc.com.cn,direct
 
 # 墨鱼项目国内影院等直连分流
 # Libvio影院，zzzfun动漫网，真不卡影院，厂长资源影视
