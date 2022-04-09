@@ -1,6 +1,22 @@
 # ---------- 参阅的广告屏蔽 ------------
 # Update 2022-3-21
 
+# 参阅自openit节点项目下的clash配置文件 部分暂时用不到，故注释
+# 绕过企业证书过期
+# host, ocsp.apple.com, reject
+
+# 屏蔽系统更新
+# host, ns.itunes.apple.com, Apple Update
+# host, appldnld.apple.com, Apple Update
+# host, mesu.apple.com, Apple Update
+# host, xp.apple.com, Apple Update
+# host, gdmf.apple.com, Apple Update
+
+# 避免迅雷版权问题
+host, hub5idx.v6.shub.sandai.net, reject
+host, hub5emu.v6.shub.sandai.net, reject
+host, hub5btmain.v6.shub.sandai.net, reject
+
 
 # 参阅自墨鱼手记项目中屏蔽分流
 # 大约是 防止广告和追踪
