@@ -1,4 +1,4 @@
-# update > 2022-4-9
+# update > 2022-4-12
 
 # Also QuantumultX 规则使用的是 host定义，然而，得益于解析器的存在，使用clash中的 domain也可正常使用，故在此处使用 domain来增加多平台可用性(虽然并没有移植)
 
@@ -21,39 +21,27 @@ HOST, www.abskoop.com, DIRECT
 # 不知道是什么，先用着
 HOST-KEYWORD, bimiacg, DIRECT
 
-# 莫名其妙的问题 校园网认证
-domain,www.baidu.com,direct
-domain,www.hebeea.edu.cn,direct
-
 # pinimg软件需要？
-domain-suffix,pinimg.com,HHX
+domain-suffix,pinimg.com,Free
 
-domain-keyword,bljiex,direct
-domain-suffix,bljiex.cc,direct
+domain-keyword,bljiex,DIRECT
+domain-suffix,bljiex.cc,DIRECT
 
 # 机场分流
-DOMAIN,yaofan.cc,HHX
-DOMAIN-SUFFIX,prprcloud.moe,HHX
-HOST,prpr.xprpr.io,HHX
-HOST-SUFFIX,freemycloud.site,HHX
-DOMAIN-KEYWORD,freemycloud,HHX
-DOMAIN-SUFFIX,sd-yun.xyz,HHX
-domain-suffix,sdyun.cc,HHX
+DOMAIN,yaofan.cc,Free
+DOMAIN-SUFFIX,prprcloud.moe,Free
+HOST,prpr.xprpr.io,Free
+HOST-SUFFIX,freemycloud.site,Free
+DOMAIN-KEYWORD,freemycloud,Free
+DOMAIN-SUFFIX,sd-yun.xyz,Free
+domain-suffix,sdyun.cc,Free
 
 # 苹果服务
 # host,itunes.apple.com,direct
 host-suffix,apple.cn,direct
 
-
 # QuantumultX 收据验证
 HOST,receiptcheck.quantumult.app,direct
-
-# Z-library，走代理的话会导致ip下载额度总是满额度，经测试直连就可以访问
-# HOST-SUFFIX,z-lib.org,direct
-# HOST-KEYWORD,singlelogin,direct
-# host-suffix,bookzz.ren,direct
-# host-suffix,book4you.org,direct
-# 经测试，如果登录账号就可以正常使用10次限额，也够用了，所以不在此画蛇添足
 
 # #HDOBOX  #套壳上架 苹果商店：https://apps.apple.com/app/id1611512811
 # 官网地址：https://hdo.app/
@@ -79,7 +67,7 @@ DOMAIN-SUFFIX,biggggg.com,Free
 host-suffix,plausible.io,Free
 
 # 奈飞影视，只能直连观看
-HOST-SUFFIX,nfmovies.com,direct
+HOST-SUFFIX,nfmovies.com,DIRECT
 
 # 天空影视 https://www.tkys.tv  @tkys
 HOST-SUFFIX,tkys.tv,direct
@@ -133,7 +121,6 @@ host-suffix,hnhx360.com,direct
 host-suffix,ukubf2.com,direct
 
 
-
 # 知乎去广告修正
 HOST,sugar.zhihu.com,direct
 
@@ -151,21 +138,21 @@ HOST,www.speedtest.net,Shawn
 DOMAIN-SUFFIX,play.charontv.com,Free
 
 # 普拉斯影业
-HOST-SUFFIX,plusmedia.site,Free
-HOST,emby.xeton.dev,Free
-HOST,jellyfin.xeton.dev,Free
-HOST,movie.xeton.dev,Free
-HOST,servers.xeton.dev,Free
+HOST-SUFFIX,plusmedia.site,HHX
+HOST,emby.xeton.dev,HHX
+HOST,jellyfin.xeton.dev,HHX
+HOST,movie.xeton.dev,HHX
+HOST,servers.xeton.dev,HHX
 
 # 卷毛鼠影视
-HOST,usa3.jmsooo.com,Free
-HOST-SUFFIX,jmsooo.com,DIRECT
+HOST,usa3.jmsooo.com,HHX
+HOST-SUFFIX,jmsooo.com,HHX
 
 # 终点站影业
-DOMAIN-SUFFIX,tv.emby.media,DIRECT
-DOMAIN-SUFFIX,emby.wtf,DIRECT  
+DOMAIN-SUFFIX,tv.emby.media,HHX
+DOMAIN-SUFFIX,emby.wtf,HHX  
 
-# 猫熊影业
+# 猫熊影业 太垃圾了，我都不想用
 DOMAIN-SUFFIX,embyclub.nl,DIRECT
 DOMAIN-SUFFIX,embyclub.net,DIRECT
 DOMAIN-SUFFIX,embyclub.com,DIRECT
@@ -174,10 +161,7 @@ DOMAIN-SUFFIX,embyclub.media,DIRECT
 DOMAIN-SUFFIX,猫熊.club,DIRECT
 DOMAIN-SUFFIX,maoxiong.cloud,DIRECT
 DOMAIN-SUFFIX,haodream.org,DIRECT
-DOMAIN-KEYWORD,emby,DIRECT
-DOMAIN-KEYWORD,pornemby,DIRECT
 DOMAIN-SUFFIX,xn--2vxr8a.club,DIRECT
-DOMAIN-SUFFIX,porn.embyclub.com,DIRECT
 IP-CIDR,142.54.186.202/16,DIRECT,no-resolve
 IP-CIDR,20.189.99.35/16,DIRECT,no-resolve
 
