@@ -1,3 +1,4 @@
-shadowsocks=hz.bgp.rx.naiun.pw:45240, method=chacha20-ietf-poly1305, password=7d9726a2-b4f6-484d-8bd8-bf72257b9230, fast-open=true, udp-relay=true, tag=🇭🇰 香港IDC宽频|NF解锁|SS|B01
-shadowsocks=gz.bgp.rx.naiun.pw:45251, method=chacha20-ietf-poly1305, password=7d9726a2-b4f6-484d-8bd8-bf72257b9230, fast-open=true, udp-relay=true, tag=🇭🇰 香港家庭宽频|NF解锁|SS|A01
-shadowsocks=gz.bgp.rx.naiun.pw:45144, method=chacha20-ietf-poly1305, password=7d9726a2-b4f6-484d-8bd8-bf72257b9230, fast-open=true, udp-relay=true, tag=🇸🇬 新加坡IDC宽频|NF解锁|SS|A01
+shadowsocks=cm07.paofuvip.xyz:5952, method=chacha20-ietf, password=bxsnucrgk6hfish, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=186434:YxQ8Vg, fast-open=false, udp-relay=false, tag=[v1] 香港
+shadowsocks=cm05.paofuvip.xyz:1081, method=chacha20-ietf, password=bxsnucrgk6hfish, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=186434:YxQ8Vg, fast-open=false, udp-relay=false, tag=[v1] 美国
+shadowsocks=cm05.paofuvip.xyz:1072, method=chacha20-ietf, password=bxsnucrgk6hfish, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=186434:YxQ8Vg, fast-open=false, udp-relay=false, tag=[v1] 台湾01
+shadowsocks=cm05.paofuvip.xyz:1073, method=chacha20-ietf, password=bxsnucrgk6hfish, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=186434:YxQ8Vg, fast-open=false, udp-relay=false, tag=[v1] 台湾02
