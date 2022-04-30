@@ -1,1 +1,2 @@
 shadowsocks=cm07.paofuvip.xyz:5952, method=chacha20-ietf, password=bxsnucrgk6hfish, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=199508:QdWeMu, fast-open=false, udp-relay=false, tag=hk
+vless://9a472d15-2123-48ef-bd35-9779d3317975@104.19.35.69:443/?encryption=none&security=tls&sni=muddy-sound-c6e1.doma.workers.dev&type=ws&host=muddy-sound-c6e1.doma.workers.dev#HKBGP
