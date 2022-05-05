@@ -1,0 +1,26 @@
+/*****************************************
+# 新发现了几个节点，在此汇总整理
+# 网易云音乐解锁需要  网易云分流+对应分流的策略+分流策略组需要的解锁节点（本页）+网易云流量解密需要的证书
+# 节点维护地址 https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/AgentNode/NeteaseMusicUnlock.list
+
+# QX 检测节点解锁状态脚本
+# event-interaction https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/TaskLocal/NeteaseMusicUnlockCheck.js, tag=网易音乐查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music_Unlock.png, enabled=true
+
+在节点订阅链接后添加 checkurl=http://interface3.music.163.com  |第一段测试结果代表节点连接速度  第二段测试结果代表节点连接到网易云速度
+
+****************************************/
+# 来自 @摸鱼 整理 https://gist.githubusercontent.com/ddgksf2013/0653194415704470ec73e33e783abb90/raw/Netease.list
+
+shadowsocks=MUSIC.DESPERADOJ.COM:30001, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag=网易云音乐1
+shadowsocks=MUSIC.DESPERADOJ.COM:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag=网易云音乐2
+http=SALVAN.ICU:19980, over-tls=false, fast-open=false, udp-relay=false, tag=网易云音乐3
+http=music.lolico.me:39000, over-tls=false, fast-open=false, udp-relay=false, tag=网易云音乐4
+http=music.griouges.cn:39000, over-tls=false, fast-open=false, udp-relay=false,tag=网易云音乐5
+
+# 来自 @浥轻尘 整理
+
+http=101.132.79.113:23333, fast-open=false, udp-relay=false, tag=NeteaseMusic Unlock 4
+http=MUSIC.GRIOUGES.CN:39000, over-tls=false, fast-open=false, udp-relay=false, tag=NeteaseMusic Unlock 5
+http=1.116.214.16:19980, over-tls=false, fast-open=false, udp-relay=false, tag=NeteaseMusic Unlock 6
+
+  
