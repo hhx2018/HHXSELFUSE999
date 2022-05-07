@@ -29,7 +29,7 @@ HOST-SUFFIX, trackingio.com,REJECT
 HOST-SUFFIX, hpplay.cn, REJECT
 HOST-SUFFIX, admobile.top, REJECT
 HOST-SUFFIX, yvfnb.cn, REJECT
-HOST-SUFFIX, netease.im, REJECT
+# HOST-SUFFIX, netease.im, REJECT
 HOST-SUFFIX, bayescom.cn, REJECT
 HOST-SUFFIX, zqslg.cn, REJECT
 HOST-SUFFIX, govhebie.cn, REJECT
