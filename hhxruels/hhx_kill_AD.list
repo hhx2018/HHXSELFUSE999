@@ -18,7 +18,7 @@ host, hub5emu.v6.shub.sandai.net, reject
 host, hub5btmain.v6.shub.sandai.net, reject
 
 
-# 参阅自墨鱼手记项目中屏蔽分流
+# 参阅自墨鱼手记项目中屏蔽分流 https://github.com/ddgksf2013/Cuttlefish/blob/master/Filter/MyAdRule.list
 # 大约是 防止广告和追踪
 HOST-SUFFIX, ywak.com.cn, REJECT
 HOST-SUFFIX, govlaibing.cn, REJECT
@@ -27,14 +27,12 @@ HOST-SUFFIX, adtrack.xiaojukeji.com,REJECT
 HOST-SUFFIX, adtrack.unilog.wostore.cn,REJECT
 HOST-SUFFIX, trackingio.com,REJECT
 HOST-SUFFIX, hpplay.cn, REJECT
-HOST-SUFFIX, admobile.top, REJECT
 HOST-SUFFIX, yvfnb.cn, REJECT
-# HOST-SUFFIX, netease.im, REJECT
+# HOST-SUFFIX, netease.im, REJECT # 网易云直播评论区
 HOST-SUFFIX, bayescom.cn, REJECT
 HOST-SUFFIX, zqslg.cn, REJECT
 HOST-SUFFIX, govhebie.cn, REJECT
 
-HOST, ad.12306.cn, REJECT
 HOST, ads.95516.com, REJECT
 HOST, token.safebrowsing.apple, REJECT
 HOST, tnc3-aliec2.snssdk.com, REJECT
@@ -55,7 +53,6 @@ HOST, mpush-api.aliyun.com, REJECT
 HOST, dark.hyhuo.com, REJECT
 HOST, beacon-api.aliyuncs.com, REJECT
 HOST, ntb.hyhuo.com, REJECT
-HOST, logs.chelaile.net.cn, REJECT
 HOST, ip-api.com, REJECT
 HOST, 6185059.com, REJECT
 HOST, wanproxy-hz.127.net, REJECT
