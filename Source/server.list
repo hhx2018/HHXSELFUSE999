@@ -1,3 +1,3 @@
-shadowsocks=cm07.paofuvip.xyz:5952, method=chacha20-ietf, password=bxsnucrgk6hfish, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=199508:QdWeMu, fast-open=false, udp-relay=false, tag=hk
+http=183.240.9.28:29983, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=新加坡
 trojan=lj.91jobs.xyz:443,password=f8f038d3-2717-4bb0-83d9-83edc07be9e9, over-tls=true, tls-host=lj.91jobs.xyz, tls-verification=false, fast-open=false, udp-relay=false, tag=春川AMD2
 
