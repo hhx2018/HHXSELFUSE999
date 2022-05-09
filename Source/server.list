@@ -1,3 +1,3 @@
 http=183.240.9.28:29983, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=新加坡
 trojan=lj.91jobs.xyz:443,password=f8f038d3-2717-4bb0-83d9-83edc07be9e9, over-tls=true, tls-host=lj.91jobs.xyz, tls-verification=false, fast-open=false, udp-relay=false, tag=春川AMD2
-
+vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJBV1N85paw5Yqg5Z2hfOa1i+ivlSIsCiAgImFkZCI6ICIxOC4xNDEuMTczLjE0MSIsCiAgInBvcnQiOiA4MCwKICAiaWQiOiAiZmUxYTE1MmMtZGU4MC00Y2Q4LTg2ZjMtMjZlOWQ5YjEwM2RlIiwKICAiYWlkIjogMCwKICAibmV0IjogIndzIiwKICAidHlwZSI6ICJub25lIiwKICAiaG9zdCI6ICJkb3duLmRpbmd0YWxrLmNvbSIsCiAgInBhdGgiOiAiLyIsCiAgInRscyI6ICJub25lIgp9
