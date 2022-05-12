@@ -38,6 +38,7 @@ domain-keyword,bljiex,DIRECT
 domain-suffix,bljiex.cc,DIRECT
 
 # 机场分流
+host-keyword,fenglingcloud,direct
 DOMAIN,yaofan.cc,Free
 DOMAIN-SUFFIX,prprcloud.moe,Free
 HOST,prpr.xprpr.io,Free
