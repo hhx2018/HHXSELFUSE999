@@ -4,6 +4,8 @@
 
 host,peace.mimon.cc,Free
 host,openit.ml,direct
+host,mb3admin.com,Free
+IP-CIDR,13.115.230.29,Free
 
 
 # AppleWeather天气优化
@@ -138,6 +140,10 @@ HOST-SUFFIX,bing.com,direct
 
 # Speedtest测速
 HOST,www.speedtest.net,Shawn
+HOST,user-api.speedtest.net,Shawn
+HOST,mapi.speedtest.net,Shawn
+# 下面这个是用来测试vpn可用性的？
+HOST,ipgeo.wlvpn.com,Free
 
 
 # ------------ E m b y --------------
