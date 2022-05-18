@@ -107,7 +107,7 @@ host-suffix,pic.wujinimg.com,direct
 # 大师兄记烟 #大师兄影视 dsxys.com/app @中华人民共和国万岁
 host-suffix,dsxys.com,direct
 host,sdk.alibaba.com.ailbaba.me,direct
-host,cdn.jsdelivr.net,direct
+# host,cdn.jsdelivr.net,direct  5月18日测试疑被墙
 host-suffix,nbjx.vip,direct
 # 不知道是干啥的 总是DNS FAIL host,img.lywyx.comupload,direct
 host,xk.3v7.net,direct
