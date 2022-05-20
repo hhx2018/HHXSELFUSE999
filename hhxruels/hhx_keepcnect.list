@@ -10,6 +10,7 @@ host,peace.mimon.cc,Free
 host,openit.ml,direct
 host,mb3admin.com,Free
 IP-CIDR,13.115.230.29/16,Free
+IP-CIDR,154.3.34.46/16,direct
 
 
 # AppleWeather天气优化
