@@ -18,7 +18,7 @@ IP-CIDR,5.28.195.95/16,direct
 
 
 # AppleWeather天气优化
-HOST-SUFFIX,waqi.info,direct
+# HOST-SUFFIX,waqi.info,direct
 HOST,c.apple.news,direct
 
 # 银行
