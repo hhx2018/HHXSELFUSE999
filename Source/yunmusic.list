@@ -1,5 +1,5 @@
 /*****************************************
-# 新发现了几个节点，在此汇总整理
+#  update> 2022-6-15
 # 网易云音乐解锁需要  网易云分流+对应分流的策略+分流策略组需要的解锁节点（本页）+网易云流量解密需要的证书
 
 # CA证书地址：https://raw.githubusercontent.com/nondanee/UnblockNeteaseMusic/master/ca.crt
