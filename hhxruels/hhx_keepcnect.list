@@ -5,6 +5,8 @@
 # 老虎证券
 host-keyword,itiger,direct
 host,api2.branch.io,direct
+host,cdn.branch.io,direct
+
 
 host-suffix,prop.cf,direct
 host-keyword,zhenbuka,direct
