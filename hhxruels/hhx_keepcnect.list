@@ -6,6 +6,9 @@
 host-keyword,itiger,direct
 host,api2.branch.io,direct
 host,cdn.branch.io,direct
+host,community-push.tradeup.com,direct
+host-suffix,skytigris.cn,direct
+
 
 
 host-suffix,prop.cf,direct
@@ -24,7 +27,7 @@ IP-CIDR,5.28.195.95/16,direct
 
 
 # AppleWeather天气优化
-# HOST-SUFFIX,waqi.info,direct
+HOST-SUFFIX,waqi.info,Spotify
 HOST,c.apple.news,direct
 
 # 银行
@@ -163,6 +166,9 @@ HOST,ipgeo.wlvpn.com,Free
 
 
 # ------------ E m b y --------------
+
+# Misakaf
+host,emby.misakaf.xyz,HHX
 
 #BlueMuisc
 HOST-SUFFIX,blueseamusicbox.best,Free
