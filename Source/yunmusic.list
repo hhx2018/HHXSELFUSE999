@@ -33,6 +33,13 @@ tMo90PooZYEOw1rTUrzHb+VZY/tYIAAomGZ0
 
 ****************************************/
 # 来自 @摸鱼 整理 https://gist.githubusercontent.com/ddgksf2013/0653194415704470ec73e33e783abb90/raw/Netease.list
+# https://raw.githubusercontent.com/bilibili-boom/Rules/master/UnblockNeteaseMusic.list#checkurl=http://interface3.music.163.com
+shadowsocks=sh-tx.ommmg.xyz:20000, method=chacha20-ietf, password=20000, fast-open=false, udp-relay=false, tag=🇨🇳 NeteaseUnblock-CN-WIN
+shadowsocks=sh-tx.ommmg.xyz:30000, method=chacha20-ietf, password=30000, fast-open=false, udp-relay=false, tag=🇨🇳 NeteaseUnblock-CN-IOS
+http=os.tencentcdn.net:25000, tls=false, tag=🇨🇳 Netease Proxy China 1
+http=pc.tencentcdn.net:35000, tls=false, tag=🇨🇳 Netease Proxy China 2
+http=163.wcc.best:80, tls=false, tag=🇨🇳 Netease Proxy China 3
+http=163.wcc.best:443, tls=false, tag=🇨🇳 Netease Proxy China 4
 
 
 # 来自 @浥轻尘 整理
