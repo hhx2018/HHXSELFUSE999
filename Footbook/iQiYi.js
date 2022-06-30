@@ -1,6 +1,6 @@
 /*
 爱奇艺会员签到脚本
-
+https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 更新时间: 2022.06.18
 脚本兼容: QuantumultX, Surge4, Loon, JsBox, Node.js
 电报频道: @NobyDa
