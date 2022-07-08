@@ -2,6 +2,9 @@
 
 # Also QuantumultX 规则使用的是 host定义，然而，得益于解析器的存在，使用clash中的 domain也可正常使用，故在此处使用 domain来增加多平台可用性(虽然并没有移植)
 
+# 我觉得不用走代理的网站
+host,data.flurry.com,direct
+
 # ---------Siri搜索改造后的分流定位
 host-suffix,smoot.apple.com,Apple999
 host,itunes.apple.com,direct
