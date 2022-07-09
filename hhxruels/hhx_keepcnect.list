@@ -4,6 +4,7 @@
 
 # 我觉得不用走代理的网站
 host,data.flurry.com,direct
+host,license.pdfexpert.com,direct
 
 # ---------Siri搜索改造后的分流定位
 host-suffix,smoot.apple.com,Apple999
