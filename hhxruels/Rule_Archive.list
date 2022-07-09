@@ -2,6 +2,12 @@
 # https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX
 
 # ------------------------ Microsoft 微软-----------------------------
+
+# 我发现的某些附加请求
+# 未验证是什么请求，测试中direct可以正常握手 api2.amplitude.com
+host-suffix,amplitude.com,direct
+
+# -----------------------------------------------------
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
