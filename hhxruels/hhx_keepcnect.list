@@ -9,6 +9,7 @@ host,license.pdfexpert.com,direct
 # ---------Siri搜索改造后的分流定位
 host-suffix,smoot.apple.com,Apple999
 host,itunes.apple.com,direct
+host-suffix,nudatasecurity.com,Apple999
 
 # 老虎证券
 host-keyword,itiger,direct
