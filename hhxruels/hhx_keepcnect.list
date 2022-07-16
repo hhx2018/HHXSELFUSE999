@@ -181,6 +181,10 @@ HOST,ipgeo.wlvpn.com,Free
 
 # ------------ E m b y --------------
 
+# 网络字幕获取
+host-suffix,assrt.net,direct
+host-suffix,shooter.cn,direct
+
 # CC公益服，2022-7-16诞生，首批500名额！
 host-suffix,jiasu.ga,HHX
 
