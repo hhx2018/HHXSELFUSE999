@@ -5,7 +5,7 @@
 # 我觉得不用走代理的网站
 host,data.flurry.com,direct
 host,license.pdfexpert.com,direct
-host,api.revenuecat.com,direct
+host-suffix,revenuecat.com,direct
 host,img.icons8.com,direct
 
 # ---------Siri搜索改造后的分流定位
