@@ -6,6 +6,9 @@
 host,data.flurry.com,direct
 host,license.pdfexpert.com,direct
 host-suffix,revenuecat.com,direct
+host-suffix,stripe.com,direct
+host-suffix,stripe.network,direct
+host-suffix,sentry.io,direct
 host,img.icons8.com,direct
 
 # ---------Siri搜索改造后的分流定位
