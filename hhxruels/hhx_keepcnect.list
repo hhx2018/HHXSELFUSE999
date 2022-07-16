@@ -5,6 +5,8 @@
 # 我觉得不用走代理的网站
 host,data.flurry.com,direct
 host,license.pdfexpert.com,direct
+host,api.revenuecat.com,direct
+host,img.icons8.com,direct
 
 # ---------Siri搜索改造后的分流定位
 host-suffix,smoot.apple.com,Apple999
@@ -175,6 +177,9 @@ HOST,ipgeo.wlvpn.com,Free
 
 
 # ------------ E m b y --------------
+
+# CC公益服，2022-7-16诞生，首批500名额！
+host-suffix,jiasu.ga,HHX
 
 # Misakaf
 host,emby.misakaf.xyz,HHX
