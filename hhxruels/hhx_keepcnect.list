@@ -3,6 +3,7 @@
 # Also QuantumultX 规则使用的是 host定义，然而，得益于解析器的存在，使用clash中的 domain也可正常使用，故在此处使用 domain来增加多平台可用性(虽然并没有移植)
 
 # 我觉得不用走代理的网站
+host-suffix,lencr.org,direct
 host,data.flurry.com,direct
 host,license.pdfexpert.com,direct
 host-suffix,revenuecat.com,direct
@@ -13,6 +14,8 @@ host,img.icons8.com,direct
 
 # 查缺补漏的
 host-suffix,amplitude.com,Free
+host-suffix,if101.tv,Free
+host-keyword,if101,Free
 
 
 # ---------Siri搜索改造后的分流定位
@@ -83,6 +86,7 @@ HOST-SUFFIX,freemycloud.site,Free
 DOMAIN-KEYWORD,freemycloud,Free
 DOMAIN-SUFFIX,sd-yun.xyz,Free
 domain-suffix,sdyun.cc,Free
+host-suffix,paopao.dog,Free
 
 # 苹果服务
 # host,itunes.apple.com,direct
