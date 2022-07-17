@@ -1,0 +1,2 @@
+1, https://b-hls-01.doppiocdn.com/hls/78599051/master/78599051_auto.m3u8
+2, https://b-hls-16.doppiocdn.com/hls/66947381/master/66947381_auto.m3u8
