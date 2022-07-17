@@ -1,7 +1,7 @@
-no-signal Auto,https://b-hls-01.doppiocdn.com/hls/78599051/master/78599051_auto.m3u8
-no-signal Auto,https://b-hls-16.doppiocdn.com/hls/66947381/master/66947381_auto.m3u8
-no-signal Auto,https://b-hls-19.doppiocdn.com/hls/74768272/master/74768272_auto.m3u8
-no-signal Auto,https://b-hls-20.doppiocdn.com/hls/82290816/master/82290816_auto.m3u8
+no-signal 720,https://b-hls-01.doppiocdn.com/hls/78599051/master/78599051_auto.m3u8
+no-signal 720,https://b-hls-16.doppiocdn.com/hls/66947381/master/66947381_auto.m3u8
+no-signal 720,https://b-hls-19.doppiocdn.com/hls/74768272/master/74768272_auto.m3u8
+no-signal 720,https://b-hls-20.doppiocdn.com/hls/82290816/master/82290816_auto.m3u8
 no-signal Auto,
 no-signal Auto,
 no-signal Auto,
