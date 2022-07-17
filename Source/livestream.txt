@@ -1,5 +1,5 @@
-奇异博士:疯狂多元宇宙 1080P,1080P$https://m3u.if101.tv/xm3u8/5a652d9eb4d72f08cb72f3d7bcf76ec109075bcdcb925f4c77dad3e100a23aaa9921f11e97d0da21.m3u8
-测试 1080P,1080P$https://m3u.if101.tv/xm3u8/5a652d9eb4d72f08cb72f3d7bcf76ec109075bcdcb925f4c77dad3e100a23aaa9921f11e97d0da21.m3u8
+奇异博士:疯狂多元宇宙 1080P,https://m3u.if101.tv/xm3u8/5a652d9eb4d72f08cb72f3d7bcf76ec109075bcdcb925f4c77dad3e100a23aaa9921f11e97d0da21.m3u8
+测试 1080P,https://m3u.if101.tv/xm3u8/5a652d9eb4d72f08cb72f3d7bcf76ec109075bcdcb925f4c77dad3e100a23aaa9921f11e97d0da21.m3u8
 
 
 
