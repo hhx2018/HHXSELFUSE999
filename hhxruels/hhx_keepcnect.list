@@ -11,6 +11,10 @@ host-suffix,stripe.network,direct
 host-suffix,sentry.io,direct
 host,img.icons8.com,direct
 
+# 查缺补漏的
+host-suffix,amplitude.com,Free
+
+
 # ---------Siri搜索改造后的分流定位
 host-suffix,smoot.apple.com,Apple999
 host,itunes.apple.com,direct
@@ -38,6 +42,7 @@ host,mb3admin.com,Free
 IP-CIDR,13.115.230.29/16,Free
 IP-CIDR,154.3.34.46/16,direct
 IP-CIDR,5.28.195.95/16,direct
+
 
 
 # AppleWeather天气优化
