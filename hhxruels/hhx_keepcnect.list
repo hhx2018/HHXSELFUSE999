@@ -15,6 +15,8 @@ host,img.icons8.com,direct
 # 查缺补漏的
 host-suffix,amplitude.com,Free
 host-suffix,if101.tv,Free
+# if101tv推流
+host-suffix,ghewig.com,Free
 host-keyword,if101,Free
 
 
