@@ -1,4 +1,6 @@
-#EXTINF:-1 tvg-logo="https://img.whalenas.com:283/image/fireworks.png" group-title="上架啦！", 🎉 奇异博士2：疯狂多元宇宙
+#EXTINF:-1 tvg-logo="https://img.whalenas.com:283/image/fireworks.png" group-title="电影", 🎉 奇异博士2：疯狂多元宇宙
 https://m3u.if101.tv/xm3u8/5a652d9eb4d72f08cb72f3d7bcf76ec109075bcdcb925f4c77dad3e100a23aaa9921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.whalenas.com:283/image/fireworks.png" group-title="上架啦！", 🎉 盗梦空间
+#EXTINF:-1 tvg-logo="https://img.whalenas.com:283/image/fireworks.png" group-title="电影", 🎉 盗梦空间
 https://m3u.if101.tv/xm3u8/c5900ad5b3adea36fd9a15cd5172a5f26f7a7ea0fddaa34618a84475ca2a4ce69921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https:---------------------------------------------------------------.png" group-title="分割线", 我是分割线
+https:-------------------------------------------------------------------------------------------------------------------------.m3u8
