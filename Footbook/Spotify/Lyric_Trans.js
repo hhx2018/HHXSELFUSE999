@@ -116,7 +116,7 @@ if('z1' !== originLanguage){
                         .filter(trans => trans.src === line.words)
                         // 因为采用了批量翻译,如果歌词为多种语言,只会翻译其中的一种语言
                         .filter(trans => trans.dst !== line.words)
-                        .map(trans => line.words = line.words + '\n—[' + trans.dst + ']');
+                        .map(trans => line.words = line.words + '「' + trans.dst + '」');
                 }
                 // 构造新数据
                 const body = colorLyricsResponseType.encode(colorLyricsResponseMessage).finish();
