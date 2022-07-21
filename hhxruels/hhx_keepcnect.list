@@ -99,17 +99,50 @@ HOST,receiptcheck.quantumult.app,direct
 
 # #HDOBOX  #套壳上架 苹果商店：https://apps.apple.com/app/id1611512811
 # 官网地址：https://hdo.app/
-domain,api.trakt.tv,Free
+
+# load image/info
 domain,api.themoviedb.org,Free
 domain-suffix,m4ufree.tv,Free
-# load image
+host-suffix,fsapi.xyz,Free
+host-suffix,vidsrc.me,Free
+host-suffix,gdriveplayer,Free
+host-suffix,2mebed.ru,Free
+host-suffix,membed.net,Free
+host-suffix,lookmovie2.to,Free
+host-suffix,fmovies.ps,Free
+host-suffix,fmovies.to,Free
+host-suffix,cineb.net,Free
+host-suffix,meomeo.pw,Free
+host-suffix,bflix.ru,Free
+host-suffix,vizcloud.cloud,Free
+host-suffix,rabbitstream.net,Free
+host-suffix,videovard.to,Free
+host-suffix,streamlare,Free
+host-suffix,slwatch.co,Free
+host-suffix,jwpcdn.com,Free
 domain-suffix,yandex.net,Free
 domain,image.tmdb.org,Free
+domain,api.trakt.tv,Free
+
+
+# 字幕下载
+host-suffix,1clickcdn.ru,Free
+host-suffix,opensubtitles.org,Free
+
+
 # load video,分别为 720P ,1080P,主要是dudeimage推流
 domain-suffix,fastmedia.monster,Free
 domain-suffix,dudeimage.net,Free
 domain-suffix,betterstream.co,Free
 domain-suffix,shopifycloud.com,Free
+# F1/F3 Server
+host-suffix,feetcdn.com,Free
+# F2 Server
+host-suffix,mzzcloud.life,Free
+# B1 Server 
+host-suffix,tapecontent.net,Free
+host-suffix,streamtape.com,Free
+
 
 # 泥巴影院
 DOMAIN-SUFFIX,nbyy.tv,Free
@@ -183,9 +216,7 @@ HOST,cn.bing.com,direct
 HOST-SUFFIX,bing.com,direct
 
 # Speedtest测速
-HOST,www.speedtest.net,Shawn
-HOST,user-api.speedtest.net,Shawn
-HOST,mapi.speedtest.net,Shawn
+host-suffix,speedtest.net,Shawn
 # 下面这个是用来测试vpn可用性的？
 HOST,ipgeo.wlvpn.com,Free
 
