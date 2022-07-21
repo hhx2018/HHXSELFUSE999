@@ -105,8 +105,8 @@ domain,api.themoviedb.org,Free
 domain-suffix,m4ufree.tv,Free
 host-suffix,fsapi.xyz,Free
 host-suffix,vidsrc.me,Free
-host-suffix,gdriveplayer,Free
-host-suffix,2mebed.ru,Free
+host-suffix,gdriveplayer.us,Free
+host-suffix,2embed.ru,Free
 host-suffix,membed.net,Free
 host-suffix,lookmovie2.to,Free
 host-suffix,fmovies.ps,Free
@@ -117,13 +117,15 @@ host-suffix,bflix.ru,Free
 host-suffix,vizcloud.cloud,Free
 host-suffix,rabbitstream.net,Free
 host-suffix,videovard.to,Free
-host-suffix,streamlare,Free
+host-suffix,streamlare.com,Free
 host-suffix,slwatch.co,Free
 host-suffix,jwpcdn.com,Free
 domain-suffix,yandex.net,Free
 domain,image.tmdb.org,Free
 domain,api.trakt.tv,Free
-
+host-suffix,mcloud.to,Free
+host-suffix,megaxfer.ru,Free
+host-suffix,subscene.com,Free
 
 # 字幕下载
 host-suffix,1clickcdn.ru,Free
