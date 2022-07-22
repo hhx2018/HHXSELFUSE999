@@ -1,15 +1,8 @@
-shadowsocks=120.233.29.210:6018, method=rc4-md5, password=di15PV, ssr-protocol=auth_aes128_md5, ssr-protocol-param=91478:cUEBYr, obfs=tls1.2_ticket_auth, obfs-host=dC5tZS92cG5oYXQ, fast-open=false, udp-relay=false, tag=香港 157Mbps
-shadowsocks=120.233.29.210:6016, method=chacha20-ietf, password=di15PV, ssr-protocol=auth_aes128_md5, ssr-protocol-param=91478:cUEBYr, obfs=tls1.2_ticket_auth, obfs-host=dC5tZS92cG5oYXQ, fast-open=false, udp-relay=false, tag=🇭🇰香港 150Mbps
+
 trojan=s4.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇺🇸US 165 Mbps
 trojan=s2.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇺🇸US 103 Mbps
-shadowsocks=ftp.cn.debian.cdnet.in:8030, method=aes-128-gcm, password=3cd88a13-6034-4c7d-8711-5b68960e6e19, fast-open=false, udp-relay=false, tag=东京 88Mbps
 
-shadowsocks=ftp.cn.debian.cdnet.in:8070, method=aes-128-gcm, password=3cd88a13-6034-4c7d-8711-5b68960e6e19, fast-open=false, udp-relay=false, tag=洛杉矶 42 Mbps
-shadowsocks=120.233.29.214:6005, method=chacha20-ietf, password=di15PV, ssr-protocol=auth_aes128_md5, ssr-protocol-param=91478:cUEBYr, obfs=tls1.2_ticket_auth, obfs-host=dC5tZS92cG5oYXQ, fast-open=false, udp-relay=false, tag=香港 70 Mbps
-shadowsocks=120.233.29.211:6005, method=chacha20-ietf, password=di15PV, ssr-protocol=auth_aes128_md5, ssr-protocol-param=91478:cUEBYr, obfs=tls1.2_ticket_auth, obfs-host=dC5tZS92cG5oYXQ, fast-open=false, udp-relay=false, tag=hk 38 Mbps
-shadowsocks=120.233.29.210:6005, method=chacha20-ietf, password=di15PV, ssr-protocol=auth_aes128_md5, ssr-protocol-param=91478:cUEBYr, obfs=tls1.2_ticket_auth, obfs-host=dC5tZS92cG5oYXQ, fast-open=false, udp-relay=false, tag=hk 76 Mbps 
 trojan=s1.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇺🇸US 67 Mbps
-ss://YWVzLTEyOC1nY206M2NkODhhMTMtNjAzNC00YzdkLTg3MTEtNWI2ODk2MGU2ZTE5@ftp.cn.debian.cdnet.in:8050#新加坡 45Mbps
 
 
 http = h3816tw.strongpipe.live:20447, username=dcf12c7e7d, password=26bae9b023, over-tls=true, tls13=false, fast-open=false, udp-relay=true, tag=台湾彰化 47Mbps
@@ -26,8 +19,8 @@ http = h961359.strongpipe.live:11545, username=dcf12c7e7d, password=26bae9b023, 
 
 http = h192837.strongpipe.live:11343, username=dcf12c7e7d, password=26bae9b023, over-tls=true, tls13=false, fast-open=false, udp-relay=true, tag=台湾芳苑 42Mbps 
 http = h192837.strongpipe.live:11344, username=dcf12c7e7d, password=26bae9b023, over-tls=true, tls13=false, fast-open=false, udp-relay=true, tag=台湾芳苑 25Mbps
-http = h192837.strongpipe.live:11345, username=dcf12c7e7d, password=26bae9b023, over-tls=true, tls13=false, fast-open=false, udp-relay=true, tag=台湾芳苑 17Mbps
-http = h63956.strongpipe.live:11343, username=dcf12c7e7d, password=26bae9b023, over-tls=true, tls13=false, fast-open=false, udp-relay=true, tag=台湾芳苑 8Mbps 
-http = h63956.strongpipe.live:11344, username=dcf12c7e7d, password=26bae9b023, over-tls=true, tls13=false, fast-open=false, udp-relay=true, tag=台湾芳苑 7Mbps
+http = h192837.strongpipe.live:11345, username=dcf12c7e7d, password=26bae9b023, over-tls=true, tls13=false, fast-open=false, udp-relay=true, tag=台湾芳苑 73Mbps
+http = h63956.strongpipe.live:11343, username=dcf12c7e7d, password=26bae9b023, over-tls=true, tls13=false, fast-open=false, udp-relay=true, tag=台湾芳苑 86Mbps 
+http = h63956.strongpipe.live:11344, username=dcf12c7e7d, password=26bae9b023, over-tls=true, tls13=false, fast-open=false, udp-relay=true, tag=台湾芳苑 100Mbps
 
 
