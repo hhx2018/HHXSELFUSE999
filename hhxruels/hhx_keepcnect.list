@@ -98,6 +98,21 @@ host-suffix,apple.cn,direct
 # QuantumultX 收据验证
 HOST,receiptcheck.quantumult.app,direct
 
+
+# www.zbkyy.com 真不卡影院国内分流，太特么多了
+host-suffix,zbkyy.com,direct
+host-suffix,yle888.vip,direct
+host-suffix,taopianzy.com,direct
+host-suffix,cjkypo.com,direct
+host-suffix,cdtlas.com,direct
+host-keyword,wolong,direct
+host-suffix,qrserver.com,direct
+host-suffix,sd-pic.com,direct
+host-suffix,nmkstcrt.xyz,direct
+host-suffix,jsdelivr.com,direct
+host-suffix,jsdelivr.net,direct
+
+
 # #HDOBOX  #套壳上架 苹果商店：https://apps.apple.com/app/id1611512811
 # 官网地址：https://hdo.app/
 
