@@ -259,13 +259,9 @@ DOMAIN-SUFFIX,play.charontv.com,Free
 
 # 普拉斯影业
 HOST-SUFFIX,plusmedia.site,HHX
-HOST,emby.xeton.dev,HHX
-HOST,jellyfin.xeton.dev,HHX
-HOST,movie.xeton.dev,HHX
-HOST,servers.xeton.dev,HHX
+HOST-SUFFIX,xeton.dev,HHX
 
 # 卷毛鼠影视
-HOST,usa3.jmsooo.com,HHX
 HOST-SUFFIX,jmsooo.com,HHX
 
 # 终点站影业
@@ -273,15 +269,5 @@ DOMAIN-SUFFIX,tv.emby.media,HHX
 DOMAIN-SUFFIX,emby.wtf,HHX  
 
 # 猫熊影业 太垃圾了，我都不想用
-DOMAIN-SUFFIX,embyclub.nl,DIRECT
-DOMAIN-SUFFIX,embyclub.net,DIRECT
-DOMAIN-SUFFIX,embyclub.com,DIRECT
-DOMAIN-SUFFIX,embyclub.org,DIRECT
-DOMAIN-SUFFIX,embyclub.media,DIRECT
-DOMAIN-SUFFIX,猫熊.club,DIRECT
-DOMAIN-SUFFIX,maoxiong.cloud,DIRECT
-DOMAIN-SUFFIX,haodream.org,DIRECT
-DOMAIN-SUFFIX,xn--2vxr8a.club,DIRECT
-IP-CIDR,142.54.186.202/16,DIRECT,no-resolve
-IP-CIDR,20.189.99.35/16,DIRECT,no-resolve
+
 
