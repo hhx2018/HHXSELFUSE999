@@ -251,8 +251,9 @@ host-suffix,jiasu.ga,HHX
 # Misakaf
 host,emby.misakaf.xyz,HHX
 
-#BlueMuisc
+#BlueMuisc、Emby 打造全服最全影视库
 HOST-SUFFIX,blueseamusicbox.best,Free
+DOMAIN-SUFFIX,blueseacdn.com,HHX
 
 # CharonTV影业   
 DOMAIN-SUFFIX,play.charontv.com,Free
