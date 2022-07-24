@@ -1,170 +1,169 @@
 # update > 2022-7-21
 
-# Also QuantumultX 规则使用的是 host定义，然而，得益于解析器的存在，使用clash中的 domain也可正常使用，故在此处使用 domain来增加多平台可用性(虽然并没有移植)
+# Also QuantumultX 规则使用的是 DOMAIN定义，然而，得益于解析器的存在，使用clash中的 DOMAIN也可正常使用，故在此处使用 DOMAIN来增加多平台可用性(虽然并没有移植)
 
 # 我觉得不用走代理的网站
-host-suffix,cn,direct
-host-suffix,lencr.org,direct
-host,data.flurry.com,direct
-host,license.pdfexpert.com,direct
-host-suffix,revenuecat.com,direct
-host-suffix,stripe.com,direct
-host-suffix,stripe.network,direct
-host-suffix,sentry.io,direct
-host,img.icons8.com,direct
+DOMAIN-SUFFIX,cn,DIRECT
+DOMAIN-SUFFIX,lencr.org,DIRECT
+DOMAIN,data.flurry.com,DIRECT
+DOMAIN,license.pdfexpert.com,DIRECT
+DOMAIN-SUFFIX,revenuecat.com,DIRECT
+DOMAIN-SUFFIX,stripe.com,DIRECT
+DOMAIN-SUFFIX,stripe.network,DIRECT
+DOMAIN-SUFFIX,sentry.io,DIRECT
+DOMAIN,img.icons8.com,DIRECT
 
 # 查缺补漏的
-host-suffix,amplitude.com,Free
-host-suffix,if101.tv,Free
+DOMAIN-SUFFIX,amplitude.com,Free
+DOMAIN-SUFFIX,if101.tv,Free
 # if101tv推流
-host-suffix,ghewig.com,Free
-host-keyword,if101,Free
+DOMAIN-SUFFIX,ghewig.com,Free
+DOMAIN-KEYWORD,if101,Free
 
 
 # ---------Siri搜索改造后的分流定位
-host-suffix,smoot.apple.com,Apple999
-host,itunes.apple.com,direct
-host-suffix,nudatasecurity.com,Apple999
+DOMAIN-SUFFIX,smoot.apple.com,Apple999
+DOMAIN,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,nudatasecurity.com,Apple999
 
 # 老虎证券
-host-keyword,itiger,direct
-host,api2.branch.io,direct
-host,cdn.branch.io,direct
-host,community-push.tradeup.com,direct
-host-suffix,skytigris.cn,direct
+DOMAIN-KEYWORD,itiger,DIRECT
+DOMAIN,api2.branch.io,DIRECT
+DOMAIN,cdn.branch.io,DIRECT
+DOMAIN,community-push.tradeup.com,DIRECT
+DOMAIN-SUFFIX,skytigris.cn,DIRECT
 
 
 
-host-suffix,prop.cf,direct
-host-keyword,zhenbuka,direct
+DOMAIN-SUFFIX,prop.cf,DIRECT
+DOMAIN-KEYWORD,zhenbuka,DIRECT
 
-HOST,szlong.weixin.qq.com,direct
-HOST,szshort.weixin.qq.com,direct
-HOST,socpk.com,Free
+DOMAIN,szlong.weixin.qq.com,DIRECT
+DOMAIN,szshort.weixin.qq.com,DIRECT
+DOMAIN,socpk.com,Free
 
-host,peace.mimon.cc,Free
-host,openit.ml,direct
-host,mb3admin.com,Free
+DOMAIN,peace.mimon.cc,Free
+DOMAIN,openit.ml,DIRECT
+DOMAIN,mb3admin.com,Free
 IP-CIDR,13.115.230.29/16,Free
-IP-CIDR,154.3.34.46/16,direct
-IP-CIDR,5.28.195.95/16,direct
+IP-CIDR,154.3.34.46/16,DIRECT
+IP-CIDR,5.28.195.95/16,DIRECT
 
 
 
 # AppleWeather天气优化
-HOST-SUFFIX,waqi.info,Spotify
-HOST,c.apple.news,direct
+DOMAIN-SUFFIX,waqi.info,Spotify
+DOMAIN,c.apple.news,DIRECT
 
 # 银行
-HOST-SUFFIX,95599.cn,direct
-HOST-SUFFIX,abchina.com,direct
-HOST-SUFFIX,bscabank.com,direct
-HOST-SUFFIX,openaboc.cn,direct
-HOST-SUFFIX,openaboc.com,direct
-HOST-SUFFIX,openaboc.com.cn,direct
+DOMAIN-SUFFIX,95599.cn,DIRECT
+DOMAIN-SUFFIX,abchina.com,DIRECT
+DOMAIN-SUFFIX,bscabank.com,DIRECT
+DOMAIN-SUFFIX,openaboc.cn,DIRECT
+DOMAIN-SUFFIX,openaboc.com,DIRECT
+DOMAIN-SUFFIX,openaboc.com.cn,DIRECT
 
 # 墨鱼项目国内影院等直连分流
 # Libvio影院，zzzfun动漫网，真不卡影院，厂长资源影视
-HOST, www.libvio.com, DIRECT
-HOST, www.zzzfun.com, DIRECT
-HOST, www.zhenbuka3.com, DIRECT
-HOST-SUFFIX, qianoo.cn, DIRECT
+DOMAIN-SUFFIX, libvio.com, DIRECT
+DOMAIN-SUFFIX, zzzfun.com, DIRECT
+DOMAIN-SUFFIX, qianoo.cn, DIRECT
 # A姐资源
-HOST, www.abskoop.com, DIRECT
+DOMAIN, www.abskoop.com, DIRECT
 # 不知道是什么，先用着
-HOST-KEYWORD, bimiacg, DIRECT
+DOMAIN-KEYWORD, bimiacg, DIRECT
 
 # pinimg软件需要？
-domain-suffix,pinimg.com,Free
+DOMAIN-SUFFIX,pinimg.com,Free
 
-domain-keyword,bljiex,DIRECT
-domain-suffix,bljiex.cc,DIRECT
+DOMAIN-KEYWORD,bljiex,DIRECT
+DOMAIN-SUFFIX,bljiex.cc,DIRECT
 
 # 机场分流
-host-keyword,fenglingcloud,direct
+DOMAIN-KEYWORD,fenglingcloud,DIRECT
 DOMAIN,yaofan.cc,Free
 DOMAIN-SUFFIX,prprcloud.moe,Free
-HOST,prpr.xprpr.io,Free
-HOST-SUFFIX,freemycloud.site,Free
+DOMAIN,prpr.xprpr.io,Free
+DOMAIN-SUFFIX,freemycloud.site,Free
 DOMAIN-KEYWORD,freemycloud,Free
 DOMAIN-SUFFIX,sd-yun.xyz,Free
-domain-suffix,sdyun.cc,Free
-host-suffix,paopao.dog,Free
+DOMAIN-SUFFIX,sdyun.cc,Free
+DOMAIN-SUFFIX,paopao.dog,Free
 
 # 苹果服务
-# host,itunes.apple.com,direct
-host-suffix,apple.cn,direct
+# DOMAIN,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,apple.cn,DIRECT
 
 # QuantumultX 收据验证
-HOST,receiptcheck.quantumult.app,direct
+DOMAIN,receiptcheck.quantumult.app,DIRECT
 
 
 # www.zbkyy.com 真不卡影院国内分流，太特么多了
-host-suffix,zbkyy.com,direct
-host-suffix,yle888.vip,direct
-host-suffix,taopianzy.com,direct
-host-suffix,cjkypo.com,direct
-host-suffix,cdtlas.com,direct
-host-keyword,wolong,direct
-host-suffix,qrserver.com,direct
-host-suffix,sd-pic.com,direct
-host-suffix,nmkstcrt.xyz,direct
-host-suffix,jsdelivr.com,direct
-host-suffix,jsdelivr.net,direct
-DOMAIN-SUFFIX,wujinpp.coom,direct
-DOMAIN-SUFFIX,bdkzh.com,direct
-DOMIAN-SUFFIX,taopianimage1.com,direct
-DOMAIN-SUFFIX,migu888.com,direct
-DOMAIN-SUFFIX,s3.bmp.ovp,direct
+DOMAIN-SUFFIX,zbkyy.com,DIRECT
+DOMAIN-SUFFIX,yle888.vip,DIRECT
+DOMAIN-SUFFIX,taopianzy.com,DIRECT
+DOMAIN-SUFFIX,cjkypo.com,DIRECT
+DOMAIN-SUFFIX,cdtlas.com,DIRECT
+DOMAIN-KEYWORD,wolong,DIRECT
+DOMAIN-SUFFIX,qrserver.com,DIRECT
+DOMAIN-SUFFIX,sd-pic.com,DIRECT
+DOMAIN-SUFFIX,nmkstcrt.xyz,DIRECT
+DOMAIN-SUFFIX,jsdelivr.com,DIRECT
+DOMAIN-SUFFIX,jsdelivr.net,DIRECT
+DOMAIN-SUFFIX,wujinpp.coom,DIRECT
+DOMAIN-SUFFIX,bdkzh.com,DIRECT
+DOMAIN-SUFFIX,taopianimage1.com,DIRECT
+DOMAIN-SUFFIX,migu888.com,DIRECT
+DOMAIN-SUFFIX,s3.bmp.ovp,DIRECT
 
 
 # #HDOBOX  #套壳上架 苹果商店：https://apps.apple.com/app/id1611512811
 # 官网地址：https://hdo.app/
 
 # load image/info
-domain,api.themoviedb.org,Free
-domain-suffix,m4ufree.tv,Free
-host-suffix,fsapi.xyz,Free
-host-suffix,vidsrc.me,Free
-host-suffix,gdriveplayer.us,Free
-host-suffix,2embed.ru,Free
-host-suffix,membed.net,Free
-host-suffix,lookmovie2.to,Free
-host-suffix,fmovies.ps,Free
-host-suffix,fmovies.to,Free
-host-suffix,cineb.net,Free
-host-suffix,meomeo.pw,Free
-host-suffix,bflix.ru,Free
-host-suffix,vizcloud.cloud,Free
-host-suffix,rabbitstream.net,Free
-host-suffix,videovard.to,Free
-host-suffix,streamlare.com,Free
-host-suffix,slwatch.co,Free
-host-suffix,jwpcdn.com,Free
-domain-suffix,yandex.net,Free
-domain,image.tmdb.org,Free
-domain,api.trakt.tv,Free
-host-suffix,mcloud.to,Free
-host-suffix,megaxfer.ru,Free
-host-suffix,subscene.com,Free
+DOMAIN-SUFFIX,themoviedb.org,Free
+DOMAIN-SUFFIX,m4ufree.tv,Free
+DOMAIN-SUFFIX,fsapi.xyz,Free
+DOMAIN-SUFFIX,vidsrc.me,Free
+DOMAIN-SUFFIX,gdriveplayer.us,Free
+DOMAIN-SUFFIX,2embed.ru,Free
+DOMAIN-SUFFIX,membed.net,Free
+DOMAIN-SUFFIX,lookmovie2.to,Free
+DOMAIN-SUFFIX,fmovies.ps,Free
+DOMAIN-SUFFIX,fmovies.to,Free
+DOMAIN-SUFFIX,cineb.net,Free
+DOMAIN-SUFFIX,meomeo.pw,Free
+DOMAIN-SUFFIX,bflix.ru,Free
+DOMAIN-SUFFIX,vizcloud.cloud,Free
+DOMAIN-SUFFIX,rabbitstream.net,Free
+DOMAIN-SUFFIX,videovard.to,Free
+DOMAIN-SUFFIX,streamlare.com,Free
+DOMAIN-SUFFIX,slwatch.co,Free
+DOMAIN-SUFFIX,jwpcdn.com,Free
+DOMAIN-SUFFIX,yandex.net,Free
+DOMAIN-SUFFIX,tmdb.org,Free
+DOMAIN-SUFFIX,trakt.tv,Free
+DOMAIN-SUFFIX,mcloud.to,Free
+DOMAIN-SUFFIX,megaxfer.ru,Free
+DOMAIN-SUFFIX,subscene.com,Free
 
 # 字幕下载
-host-suffix,1clickcdn.ru,Free
-host-suffix,opensubtitles.org,Free
+DOMAIN-SUFFIX,1clickcdn.ru,Free
+DOMAIN-SUFFIX,opensubtitles.org,Free
 
 
 # load video,分别为 720P ,1080P,主要是dudeimage推流
-domain-suffix,fastmedia.monster,Free
-domain-suffix,dudeimage.net,Free
-domain-suffix,betterstream.co,Free
-domain-suffix,shopifycloud.com,Free
+DOMAIN-SUFFIX,fastmedia.monster,Free
+DOMAIN-SUFFIX,dudeimage.net,Free
+DOMAIN-SUFFIX,betterstream.co,Free
+DOMAIN-SUFFIX,shopifycloud.com,Free
 # F1/F3 Server
-host-suffix,feetcdn.com,Free
+DOMAIN-SUFFIX,feetcdn.com,Free
 # F2 Server
-host-suffix,mzzcloud.life,Free
+DOMAIN-SUFFIX,mzzcloud.life,Free
 # B1 Server 
-host-suffix,tapecontent.net,Free
-host-suffix,streamtape.com,Free
+DOMAIN-SUFFIX,tapecontent.net,Free
+DOMAIN-SUFFIX,streamtape.com,Free
 
 
 # 泥巴影院
@@ -174,101 +173,101 @@ DOMAIN-KEYWORD,mudvod,Free
 # newpppp 是媒体流来源
 DOMAIN-SUFFIX,newpppp.com,Free
 DOMAIN-SUFFIX,biggggg.com,Free
-host-suffix,plausible.io,Free
+DOMAIN-SUFFIX,plausible.io,Free
 
 # 奈飞影视，只能直连观看
-HOST-SUFFIX,nfmovies.com,DIRECT
+DOMAIN-SUFFIX,nfmovies.com,DIRECT
 
 # 天空影视 https://www.tkys.tv  @tkys
-HOST-SUFFIX,tkys.tv,direct
-HOST-SUFFIX,kuaibozy.net,direct
+DOMAIN-SUFFIX,tkys.tv,DIRECT
+DOMAIN-SUFFIX,kuaibozy.net,DIRECT
 # 多个网站使用 img.52swat.cn来做图床
-HOST-SUFFIX,52swat.cn,direct
+DOMAIN-SUFFIX,52swat.cn,DIRECT
 
 # AGE动漫 agefans.app
-HOST-SUFFIX,agefans.app,direct
-HOST-SUFFIX,digicert.com,direct
-HOST-SUFFIX,sectigo.com,direct
+DOMAIN-SUFFIX,agefans.app,DIRECT
+DOMAIN-SUFFIX,digicert.com,DIRECT
+DOMAIN-SUFFIX,sectigo.com,DIRECT
 
 # 欢乐聚会# 好猫影视 haomao.app
-HOST-SUFFIX,haomao.app,direct
-host-suffix,ylzy1.com,direct
+DOMAIN-SUFFIX,haomao.app,DIRECT
+DOMAIN-SUFFIX,ylzy1.com,DIRECT
 
 # 菜鸟制作工具# 迪迪影视 www.dd88.app
-host-suffix,dd88.app,direct
-host-suffix,dd88.icu,direct
-host-suffix,pic.wujinimg.com,direct
+DOMAIN-SUFFIX,dd88.app,DIRECT
+DOMAIN-SUFFIX,dd88.icu,DIRECT
+DOMAIN-SUFFIX,pic.wujinimg.com,DIRECT
 
 # 大师兄记烟 #大师兄影视 dsxys.com/app @中华人民共和国万岁
-host-suffix,dsxys.com,direct
-host,sdk.alibaba.com.ailbaba.me,direct
-# host,cdn.jsdelivr.net,direct  5月18日测试疑被墙
-host-suffix,nbjx.vip,direct
-# 不知道是干啥的 总是DNS FAIL host,img.lywyx.comupload,direct
-host,xk.3v7.net,direct
-host-suffix,bdzybf3.com,direct
-host-suffix,bdzyimg.com,direct
+DOMAIN-SUFFIX,dsxys.com,DIRECT
+DOMAIN,sdk.alibaba.com.ailbaba.me,DIRECT
+# DOMAIN,cdn.jsdelivr.net,DIRECT  5月18日测试疑被墙
+DOMAIN-SUFFIX,nbjx.vip,DIRECT
+# 不知道是干啥的 总是DNS FAIL DOMAIN,img.lywyx.comupload,DIRECT
+DOMAIN,xk.3v7.net,DIRECT
+DOMAIN-SUFFIX,bdzybf3.com,DIRECT
+DOMAIN-SUFFIX,bdzyimg.com,DIRECT
 # 某些视频要走这个推流
-host,new.ha1916.com,Free
+DOMAIN,new.ha1916.com,Free
 # 某些站点偶尔会调用两次这个站点，也许是做某些验证？
-host,statuse.digitalcertvalidation.com,direct
+DOMAIN,statuse.digitalcertvalidation.com,DIRECT
 
 # 养花录 #盼盼影视 panpan.la 扣扣群705941508 E-mail：panpanys@outlook.com
-host,img.huishij.com,direct
-host,jk.8c5778.com,direct
-host,img.lywyx.com,direct
-host-suffix,alsmzw.cn,direct
+DOMAIN,img.huishij.com,DIRECT
+DOMAIN,jk.8c5778.com,DIRECT
+DOMAIN,img.lywyx.com,DIRECT
+DOMAIN-SUFFIX,alsmzw.cn,DIRECT
 
 # le的根证书终于换了，丝麻的根证书终于换了，不会被苹果墙了 root根证书服务器换到了http://r3.o.lencr.org
-# host-suffix,lencr.org,direct
+# DOMAIN-SUFFIX,lencr.org,DIRECT
 # 未复现下列
-# host,apps.identrust.com,direct
+# DOMAIN,apps.identrust.com,DIRECT
 
 # 小小影视 xiao1.app
-host,xiao1.app,direct
-host-suffix,hnhx360.com,direct
+DOMAIN,xiao1.app,DIRECT
+DOMAIN-SUFFIX,hnhx360.com,DIRECT
 # 下面为推流地址
-host-suffix,ukubf2.com,direct
+DOMAIN-SUFFIX,ukubf2.com,DIRECT
 
 
 # 知乎去广告修正
-HOST,sugar.zhihu.com,direct
+DOMAIN,sugar.zhihu.com,DIRECT
 
 # 必应中国
-HOST,cn.bing.com,direct
-HOST-SUFFIX,bing.com,direct
+DOMAIN,cn.bing.com,DIRECT
+DOMAIN-SUFFIX,bing.com,DIRECT
 
 # Speedtest测速
-host-suffix,speedtest.net,Shawn
+DOMAIN-SUFFIX,speedtest.net,Shawn
 # 下面这个是用来测试vpn可用性的？
-HOST,ipgeo.wlvpn.com,Free
+DOMAIN,ipgeo.wlvpn.com,Free
 
 
 # ------------ E m b y --------------
 
 # 网络字幕获取
-host-suffix,assrt.net,direct
-host-suffix,shooter.cn,direct
+DOMAIN-SUFFIX,assrt.net,DIRECT
+DOMAIN-SUFFIX,shooter.cn,DIRECT
 
 # CC公益服，2022-7-16诞生，首批500名额！
-host-suffix,jiasu.ga,HHX
+DOMAIN-SUFFIX,jiasu.ga,HHX
 
 # Misakaf
-host,emby.misakaf.xyz,HHX
+DOMAIN,emby.misakaf.xyz,HHX
 
 #BlueMuisc、Emby 打造全服最全影视库
-HOST-SUFFIX,blueseamusicbox.best,Free
+DOMAIN-SUFFIX,blueseamusicbox.best,Free
 DOMAIN-SUFFIX,blueseacdn.com,HHX
 
 # CharonTV影业   
 DOMAIN-SUFFIX,play.charontv.com,Free
 
 # 普拉斯影业
-HOST-SUFFIX,plusmedia.site,HHX
-HOST-SUFFIX,xeton.dev,HHX
+DOMAIN-SUFFIX,plusmedia.site,HHX
+DOMAIN-SUFFIX,xeton.dev,HHX
 
 # 卷毛鼠影视
-HOST-SUFFIX,jmsooo.com,HHX
+DOMAIN-SUFFIX,jmsooo.com,HHX
 
 # 终点站影业
 DOMAIN-SUFFIX,tv.emby.media,HHX
